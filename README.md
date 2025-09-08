@@ -6,6 +6,8 @@ It uses a simple
 JSON server, execute following command 
 
 ```
+cd backend 
+
 npm install
 
 npm start
@@ -25,7 +27,10 @@ export const BASE = 'http://localhost:3001'
 Once the base url is configured, execute the following commands
 
 ```
+cd frontend/notes-app
+
 npm install
+
 npm run dev // to run app in dev mode
 ```
 
@@ -52,3 +57,8 @@ Filtering is performed on the UI side rather than on the backend.
 Implements optimistic delete operation and notifies the user if the operation fails.
 
 State Management & Utilities – The state, store, and utility functions can be reused and shared across React Native apps.
+
+#### Screenshots
+![App Screenshot](./screenshots/sample1.png)
+![App Screenshot](./screenshots/sample2.png)
+![App Screenshot](./screenshots/sample3.png)
